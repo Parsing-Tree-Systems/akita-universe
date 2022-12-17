@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UiModule } from '@ui';
 import { CoreModule } from './modules/core/core.module';
 
+import { TranslocoRootModule } from './transloco-root.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,8 +17,9 @@ import { CoreModule } from './modules/core/core.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CoreModule
+    CoreModule,
     // UiModule
+    TranslocoRootModule
   ],
   providers: [],
   bootstrap: [AppComponent]
