@@ -2,6 +2,16 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@auth": ["projects/auth/src/public-api.ts"],
+      "auth": [
+        "dist/auth"
+      ],
+      "@ui": ["projects/ui/src/public-api.ts"],
+      "ui": [
+        "dist/ui"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -28,5 +38,5 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
 }

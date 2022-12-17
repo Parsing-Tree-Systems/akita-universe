@@ -1,0 +1,11 @@
+{
+  "BUTTONS": {
+    "CANCEL": "Cancel",
+    "SUBMIT": "Submit"
+  },
+  "LOGIN": {
+    "TITLE": "Login",
+    "EMAIL": "Email",
+    "PASSWORD": "Password"
+  }
+}
